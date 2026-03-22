@@ -1,3 +1,4 @@
+// Next.js 16: auth proxy (previously `middleware.ts` — renamed per Next.js 16 convention)
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 
 const isProtectedRoute = createRouteMatcher([
